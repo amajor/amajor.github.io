@@ -1,22 +1,20 @@
 # Alison Major
 
-## Developer, Instructor, Kid Sherpa
+http://amajor.github.io/
 
-Getting her start as a graphic designer, Alison began her career in the print industry, bringing information to life on paper with color, photos, and layouts. When she moved into the technology scene, she found her groove in programming and has been honing her craft ever since.
+## About
 
-As an application developer, Alison shines in front end development and spends much of her efforts working towards a positive user experience. Instead of ink on a page, she slings hex codes, tests, components, and responsive layouts to make the digital world a more beautiful place.
+Alison began her career as a graphic designer and moved into web development and writing custom scripts. She later helped to design and develop a web application for an online web-to-print system.
 
-Alison also teaches a course in "Intro to Programming" that gives foundational programming skills through Javascript examples, as well as introducing students to necessary soft skills through developing an application over the semester through project planning, user stories, test driven development, and more.
+Alison was asked to join the Robotic Process Automation (RPA) team upon its inception at her workplace in January 2018 and worked with business stakeholders to research, design, develop, test, and deploy process automations in vital business areas.
 
-She resides in Holland, MI with her husband Chris, two kids, dog, and two cats. In her free time she loves to make jams and jellies or bake breads and goodies.
+In May 2019, Alison was promoted to Senior Developer and led a development pod that was largely responsible for the creation and centralization of one of the company's most popular and successful internal bots which creates and submits orders by reading purchase orders via Optical Character Recognition (OCR) technology.
 
-<img src="./assets/AlisonMajor.jpg" alt="Alison Major" />
+In her current professional role, Alison helps lead the technical development and management of RPA bots as a Technical Delivery Lead.
+ 
+Alison has been married to her husband Chris since 2007 and lives in West Michigan with their two kids. When she’s not working, Alison enjoys sailing with her family on their boat named Fika, learning new things (she’s currently taking graduate classes for a Master's in Computer Science with a focus in Software Engineering), and curling up with a good fantasy or adventure story with a nice cup of tea.
 
 ## Contact Information
-
-Holland, MI
-
-hello@alisonmajor.me
 
 ### LinkedIn
 
@@ -24,24 +22,10 @@ https://www.linkedin.com/in/amajorendeavor
 
 ## Samples of Work
 
-### Medium Posts
+### Medium
 
-https://medium.com/@alison.major_65161/latest
+https://medium.com/@amajordeveloper
 
 ### GitHub
 
 https://github.com/amajor
-
-## Social Things
-
-### Instagram
-
-http://instagram.com/amajordeveloper
-
-### Twitter
-
-https://twitter.com/amajorendeavor
-
-### Facebook
-
-https://www.facebook.com/majorendeavor
