@@ -4,16 +4,23 @@ const MediumArticles = (props) => {
   const { title, link, thumbnail, content, pubDate } = props.articleData;
 
   function article() {
-    return <a target="_blank" rel="noopener" href={`${link}`}>
-      <div className="image-container">
-        <img src={`${thumbnail}`} className="image" alt={truncateText(cleanTitle(title), 0, 60)}></img>
+    const articleTitle = truncateText(cleanTitle(title), 0, 60);
+    const articleContent = truncateText(toText(content), 48, 300) + "...";
+    const articlePublicationDate = convertDate(pubDate);
+
+    return (
+      <div className="card">
+        <img src={`${thumbnail}`} className="card-img-top" alt={title} />
+        <div className="card-body">
+          <h5 className="card-title">{articleTitle}</h5>
+          <p className="card-text">{articleContent}</p>
+          <p className="card-text"><em>{articlePublicationDate}</em></p>
+          <a target="_blank" rel="noreferrer" className="btn btn-primary" href={`${link}`}>
+            Read more...
+          </a>
+        </div>
       </div>
-      <div className="td-container">
-        <h3>{truncateText(cleanTitle(title), 0, 60)}</h3><br />
-        <p>{truncateText(toText(content), 48, 300) + "..."}</p><br />
-        <h4>{convertDate(pubDate)}</h4>
-      </div>
-    </a>
+    )
 
   }
 
