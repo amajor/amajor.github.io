@@ -47,12 +47,10 @@
 }
 
 .article-container {
-  border: 3px solid black;
   width: 375px;
 }
 
 .image {
-  border-bottom: 2px solid black;
   width: 370px;
   height: 275px;
   object-fit: cover;
