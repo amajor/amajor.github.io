@@ -1,5 +1,7 @@
 # Alison Major
 
+http://amajor.github.io/
+
 ## About
 
 Alison began her career as a graphic designer and moved into web development and writing custom scripts. She later helped to design and develop a web application for an online web-to-print system.
