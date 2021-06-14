@@ -6,6 +6,9 @@ import gitHubLogo from './assets/GitHub_Logo.png';
 import MediumArticlesContainer from './Components/MediumArticlesContainer'
 
 function App() {
+  const linkFika = "https://www.instagram.com/sailingfika/";
+  const aTagFika = <a href={linkFika} target="_blank" rel="noreferrer">Fika</a>;
+
   return (
     <div className="App">
       <div className="container">
@@ -52,7 +55,7 @@ function App() {
             <p>
               Alison has been married to her husband Chris since 2007 and lives in 
               West Michigan with their two kids. When she’s not working, Alison 
-              enjoys sailing with her family on their boat named Fika, learning new 
+              enjoys sailing with her family on their boat, {aTagFika}, learning new 
               things (she’s currently taking graduate classes for a Master's in 
               Computer Science with a focus in Software Engineering), and curling 
               up with a good fantasy or adventure story with a nice cup of tea.
