@@ -22,7 +22,7 @@ const MediumArticles = (props) => {
             <small><em>{articlePublicationDate}</em></small>
           </p>
           <a target="_blank" rel="noreferrer" className={`btn ${buttonColor(articlePublisher)}`} href={`${link}`}>
-            Read on {articlePublisher}
+            Read on <strong>{articlePublisher}</strong>
           </a>
           <p className="card-text" style={{ marginTop: "20px" }}>
             <small><em>Categories: {articleCategories}</em></small>

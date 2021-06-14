@@ -11,17 +11,12 @@ function App() {
       <div className="container">
 
         <div className="row justify-content-md-center" style={{marginTop: '50px'}}>
-          <div className="col-md-3">
+          <div className="col-md-3 app-header">
             <img
               src={alison}
               alt="Alison Major"
               className="img-fluid rounded-circle"
             />
-          </div>
-        </div>
-
-        <div className="row justify-content-md-center" style={{marginTop: '50px'}}>
-          <div className="col">
             <h1 className="h2">Alison Major</h1>
             <h3 className="h5">
               <a href="mailto:hello@alisonmajor.me">
@@ -29,11 +24,8 @@ function App() {
               </a>
             </h3>
           </div>
-        </div>
-
-        <div className="row justify-content-md-center" style={{marginTop: '50px'}}>
+          <div className="col-md-1"></div>
           <div className="col-md-6">
-            <h3>About</h3>
             <p>
               Alison began her career as a graphic designer and moved into web 
               development and writing custom scripts. She later helped to 
