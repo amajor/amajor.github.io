@@ -67,10 +67,9 @@ const MediumArticles = (props) => {
   }
 
   const convertDate = (date) => {
-    let dateArray = date.slice(0, 10).split("-")
-    let year = dateArray.shift();
-    dateArray.push(year)
-    return `Published: ${dateArray.join("/")}`;
+    let dateArray = date.slice(0, 10).split("-");
+    console.log(`dateArray: ${dateArray}`);
+    return `Published ${dateArray.join("-")}`;
   }
 
   const buttonColor = (mediumPublisher) => {
