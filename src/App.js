@@ -15,6 +15,7 @@ function App() {
 
         <div className="row justify-content-md-center" style={{marginTop: '50px'}}>
           <div className="col-md-3 app-header">
+            <hr style={{ marginBottom: "30px" }} />
             <img
               src={alison}
               alt="Alison Major"
@@ -26,6 +27,7 @@ function App() {
                 hello@alisonmajor.me
               </a>
             </h3>
+            <hr style={{ marginTop: "30px" }} />
           </div>
           <div className="col-md-1"></div>
           <div className="col-md-6">
@@ -36,9 +38,9 @@ function App() {
               system.
             </p>
             <p>
-              Alison was asked to join the Robotic Process Automation (RPA) team 
-              upon its inception at her workplace in January 2018 and worked with 
-              business stakeholders to research, design, develop, test, and deploy 
+              Upon its inception in January 2018, Alison was asked to join the 
+              Robotic Process Automation (RPA) team  and worked with business 
+              stakeholders to research, design, develop, test, and deploy 
               process automations in vital business areas.
             </p>
             <p>
