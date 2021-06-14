@@ -21,7 +21,7 @@ const MediumArticles = (props) => {
           <p className="card-text">
             <small><em>{articlePublicationDate}</em></small>
           </p>
-          <a target="_blank" rel="noreferrer" className="btn btn-dark" href={`${link}`}>
+          <a target="_blank" rel="noreferrer" className={`btn ${buttonColor(articlePublisher)}`} href={`${link}`}>
             Read on {articlePublisher}
           </a>
           <p className="card-text" style={{ marginTop: "20px" }}>
@@ -71,6 +71,21 @@ const MediumArticles = (props) => {
     let year = dateArray.shift();
     dateArray.push(year)
     return `Published: ${dateArray.join("/")}`;
+  }
+
+  const buttonColor = (mediumPublisher) => {
+    let btnClassName = 'btn-dark';
+    switch(mediumPublisher) {
+      case 'JavaScript in Plain English':
+        btnClassName = 'btn-primary';
+        break;
+      case 'Geek Culture':
+        btnClassName = 'btn-warning';
+        break;
+      default:
+        btnClassName = 'btn-dark';
+    }
+    return btnClassName;
   }
 
   return (
